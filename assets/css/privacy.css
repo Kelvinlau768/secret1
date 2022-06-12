@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Bebas+Neue&display=swap');
+.container{
+    margin: 0 30px 100px 30px;
+}
+
+.header{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.second-header{
+    font-size: 1.3rem;
+    color: rgb(75, 75, 75);
+}
+
+.link{
+    font-size: 1.1rem;
+    color: blue;
+}
+
+.text{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+ul li{
+    padding: 3px 10px;
+}

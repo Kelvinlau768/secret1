@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+@media screen and (min-width: 1400px){
+    .mobile-footer{
+        display: none;
+    }
+
+    footer{
+        width: 100%;
+        background-color: black;
+        box-shadow: 0 16px 70px -8px rgba(0, 0, 0, 0.25);
+        transition: background 0,3s linear;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-container li{
+        list-style: none;
+    }
+
+    .footer-container a, .tou a{
+        text-decoration: none;
+    }
+
+    .footer{
+        max-width: 1240px;
+        padding: 55px 0px 18px 0px;
+        margin: auto;
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-header{
+        font-family: 'Bebas Neue';
+        color: white;
+        padding-bottom: 1px;
+        font-weight: 400;
+        word-spacing: 1px;
+        letter-spacing: 0.3px;
+        line-height: 25px;
+        opacity: 0.9;
+        font-size: 1rem;
+    }
+    
+    .footer_header{
+        padding: 0;
+    }
+    
+    .footer-desc{
+        font-family: 'Anek Telugu', sans-serif;
+        color: white;
+        font-size: 0.85rem;
+        opacity: 0.4;
+        font-weight: 300;
+        line-height: 0.1;
+    }
+    
+    .footer-desc:hover{
+        opacity: 1;
+    }
+    
+    .footer-content{
+        display: flex;
+    }
+    
+    .footer_header{
+        margin-right: 150px;
+    }
+    
+    .social_media{
+        margin-left: 120px;
+    }
+    
+    .social_media a{
+        margin-right: 10px;
+        font-size: 24px;
+        border: 1px solid #828282;
+        border-radius: 50%;
+        background-color: #828282;
+        color: black;
+        padding: 4px;
+        justify-content: center;
+        display: inline-flex;
+    }
+    
+    .social_media a:hover{
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .footer_header li a:hover{
+        color: white;
+    }
+    
+    .footer_header li{
+        margin-bottom: 10px;
+    }
+    
+    .footer_bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.875rem;
+        margin-top: 50px;
+    }
+    
+    .copy_right{
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+    .copy_right i{
+        font-size: 1rem;
+    }
+    
+    .copy_right .location{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.8rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 0.1rem;
+    }
+    
+    .copy_right .secret-copyright{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.75rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 1px;
+        color: #828282;
+    }
+    
+    .tou a{
+        color: #828282;
+        margin-left: 1.5rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;;
+        font-family: 'Bebas Neue';
+    }
+    
+    .tou a:hover{
+        color: white;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1400px){
+    .mobile-footer{
+        display: none;
+    }
+
+    .footer-container li{
+        list-style: none;
+    }
+    
+    .footer-container a, .tou a{
+        text-decoration: none;
+    }
+    
+    footer{
+        width: 100%;
+        background-color: black;
+        box-shadow: 0 16px 70px -8px rgba(0, 0, 0, 0.25);
+        transition: background 0,3s linear;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer{
+        max-width: 1240px;
+        padding: 40px 0px 18px 0px;
+        margin: auto;
+    }
+    
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-header{
+        font-family: 'Bebas Neue';
+        color: white;
+        padding-bottom: 1px;
+        font-weight: 400;
+        word-spacing: 1px;
+        letter-spacing: 0.3px;
+        line-height: 25px;
+        opacity: 0.9;
+        font-size: 1rem;
+    }
+    
+    .footer_header{
+        padding: 0;
+    }
+    
+    .footer-desc{
+        font-family: 'Anek Telugu', sans-serif;
+        color: white;
+        font-size: 0.85rem;
+        opacity: 0.4;
+        font-weight: 300;
+        line-height: 0.1;
+    }
+    
+    .footer-desc:hover{
+        opacity: 1;
+    }
+    
+    .footer-content{
+        display: flex;
+    }
+    
+    .footer_header{
+        margin-right: 100px;
+    }
+    
+    .social_media{
+        margin-left: 130px;
+    }
+    
+    .social_media a{
+        margin-right: 10px;
+        font-size: 24px;
+        border: 1px solid #828282;
+        border-radius: 50%;
+        background-color: #828282;
+        color: black;
+        padding: 4px;
+        justify-content: center;
+        display: inline-flex;
+    }
+    
+    .social_media a:hover{
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .footer_header li a:hover{
+        color: white;
+    }
+    
+    .footer_header li{
+        margin-bottom: 10px;
+    }
+    
+    .footer_bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.875rem;
+        margin-top: 50px;
+    }
+    
+    .copy_right{
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    
+    .copy_right i{
+        font-size: 1rem;
+    }
+    
+    .copy_right .location{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.8rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 0.1rem;
+    }
+    
+    .copy_right .secret-copyright{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.75rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 1px;
+        color: #828282;
+    }
+    
+    .tou a{
+        color: #828282;
+        margin-left: 1.5rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;;
+        font-family: 'Bebas Neue';
+    }
+    
+    .tou a:hover{
+        color: white;
+    }
+}
+
+@media screen and (max-width: 979px){
+    .desktop-footer{
+        display: none;
+    }
+
+    .footer-container li{
+        list-style: none;
+    }
+    
+    .footer-container a, .tou a{
+        text-decoration: none;
+    }
+
+    footer{
+        width: 100%;
+        background-color: black;
+        box-shadow: 0 16px 70px -8px rgba(0, 0, 0, 0.25);
+        transition: background 0,3s linear;
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .footer{
+        max-width: 1240px;
+        padding: 40px 0px 18px 0px;
+        margin: auto;
+    }
+    
+    .footer-container{
+        margin-bottom: 1rem;
+    }
+    
+    .footer-header{
+        font-family: 'Bebas Neue';
+        color: white;
+        padding-bottom: 1px;
+        font-weight: 400;
+        word-spacing: 1px;
+        letter-spacing: 0.3px;
+        line-height: 25px;
+        opacity: 0.9;
+        font-size: 1rem;
+        padding-left: 40px;
+    }
+    
+    .footer_header{
+        width: 100%;
+    }
+    
+    .footer-desc{
+        font-family: 'Anek Telugu', sans-serif;
+        color: white;
+        font-size: 0.85rem;
+        opacity: 0.4;
+        font-weight: 300;
+        line-height: 0.1;
+        padding-left: 40px;
+    }
+
+    .footer-line{
+        display: block;
+        height: 1px;
+        margin: 25px 0;
+        background: white;
+        opacity: 0.2;
+        padding: 0 10px;
+        width: 100%;
+    }
+    
+    .footer-desc:hover{
+        opacity: 1;
+    }
+    
+    .footer-content{
+        display: block;
+    }
+    
+    .footer_header{
+        margin-right: 100px;
+    }
+    
+    .social_media{
+        margin-top: 40px;
+        padding-left: 40px;
+    }
+    
+    .social_media a{
+        margin-right: 10px;
+        font-size: 24px;
+        border: 1px solid #828282;
+        border-radius: 50%;
+        background-color: #828282;
+        color: black;
+        padding: 4px;
+        justify-content: center;
+        display: inline-flex;
+    }
+    
+    .social_media a:hover{
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .footer_header li a:hover{
+        color: white;
+    }
+    
+    .footer_header li{
+        margin-bottom: 10px;
+    }
+    
+    .footer_bottom{
+        font-size: 0.875rem;
+        margin-top: 50px;
+    }
+    
+    .copy_right{
+        color: white;
+        margin: 25px 0 0 30px;
+    }
+    
+    .copy_right i{
+        font-size: 1rem;
+    }
+    
+    .copy_right .location{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.8rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 0.1rem;
+    }
+    
+    .copy_right .secret-copyright{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.75rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 1px;
+        color: #828282;
+    }
+
+    .tou{
+        margin-top: 40px;
+    }
+    
+    .tou a{
+        color: #828282;
+        margin-left: 40px;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;;
+        font-family: 'Bebas Neue';
+        display: block;
+        line-height: 3;
+    }
+    
+    .tou a:hover{
+        color: white;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 978px){
+    .desktop-footer{
+        display: none;
+    }
+
+    .footer-container li{
+        list-style: none;
+    }
+    
+    .footer-container a, .tou a{
+        text-decoration: none;
+    }
+
+    footer{
+        width: 100%;
+        background-color: black;
+        box-shadow: 0 16px 70px -8px rgba(0, 0, 0, 0.25);
+        transition: background 0,3s linear;
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .footer{
+        max-width: 1240px;
+        padding: 40px 0px 18px 0px;
+        margin: auto;
+    }
+    
+    .footer-container{
+        margin-bottom: 1rem;
+    }
+    
+    .footer-header{
+        font-family: 'Bebas Neue';
+        color: white;
+        padding-bottom: 1px;
+        font-weight: 400;
+        word-spacing: 1px;
+        letter-spacing: 0.3px;
+        line-height: 25px;
+        opacity: 0.9;
+        font-size: 1rem;
+        padding-left: 40px;
+    }
+    
+    .footer_header{
+        width: 100%;
+    }
+    
+    .footer-desc{
+        font-family: 'Anek Telugu', sans-serif;
+        color: white;
+        font-size: 0.85rem;
+        opacity: 0.4;
+        font-weight: 300;
+        line-height: 0.1;
+        padding-left: 40px;
+    }
+
+    .footer-line{
+        display: block;
+        height: 1px;
+        margin: 25px 0;
+        background: white;
+        opacity: 0.2;
+        padding: 0 10px;
+        width: 100%;
+    }
+    
+    .footer-desc:hover{
+        opacity: 1;
+    }
+    
+    .footer-content{
+        display: block;
+    }
+    
+    .footer_header{
+        margin-right: 100px;
+    }
+    
+    .social_media{
+        margin-top: 40px;
+        padding-left: 40px;
+    }
+    
+    .social_media a{
+        margin-right: 10px;
+        font-size: 24px;
+        border: 1px solid #828282;
+        border-radius: 50%;
+        background-color: #828282;
+        color: black;
+        padding: 4px;
+        justify-content: center;
+        display: inline-flex;
+    }
+    
+    .social_media a:hover{
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .footer_header li a:hover{
+        color: white;
+    }
+    
+    .footer_header li{
+        margin-bottom: 10px;
+    }
+    
+    .footer_bottom{
+        font-size: 0.875rem;
+        margin-top: 50px;
+    }
+    
+    .copy_right{
+        color: white;
+        margin: 25px 0 0 30px;
+    }
+    
+    .copy_right i{
+        font-size: 1rem;
+    }
+    
+    .copy_right .location{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.8rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 0.1rem;
+    }
+    
+    .copy_right .secret-copyright{
+        margin-left: 8px;
+        font-weight: 400;
+        font-size: 0.75rem;
+        font-family: 'Bebas Neue';
+        letter-spacing: 1px;
+        color: #828282;
+    }
+
+    .tou{
+        margin-top: 40px;
+    }
+    
+    .tou a{
+        color: #828282;
+        margin-left: 40px;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;;
+        font-family: 'Bebas Neue';
+        display: block;
+        line-height: 3;
+    }
+    
+    .tou a:hover{
+        color: white;
+    }
+}
