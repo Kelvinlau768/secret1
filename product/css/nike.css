@@ -145,7 +145,7 @@
         padding: 20px 30px;
         width: 500px;
         border: 1px solid black;
-        margin-top: 20px;
+        margin-top: -5px;
     }
     
     .cart-button:hover{
@@ -584,7 +584,7 @@
         padding: 20px 30px;
         width: 500px;
         border: 1px solid black;
-        margin-top: 20px;
+        margin-top: -5px;
     }
     
     .cart-button:hover{

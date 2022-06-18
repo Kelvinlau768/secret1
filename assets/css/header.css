@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&family=Bebas+Neue&display=swap');
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -128,6 +129,10 @@ body::-webkit-scrollbar-thumb:hover {
   
 .header-logo {
     margin-bottom: 20px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 1.1rem;
 }
   
 .header-logo img {
