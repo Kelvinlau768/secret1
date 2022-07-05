@@ -1171,7 +1171,7 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 301px) and (max-width: 600px){
     .second-tab-container, .desktop-container, .tab-container{
         display: none;
     }
@@ -1180,6 +1180,7 @@
         margin: 0 15px;
         font-family: 'roboto';
         padding: 50px 0 100px 0;
+        background-color: red;
     }
     
     .banner{
@@ -1233,6 +1234,176 @@
         border-radius: 150%;
         padding: 25px 20px;
         background-color: #f4f4f4;
+        
+    }
+    
+    .box-2{
+        margin-right: 15px;
+    }
+
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 240px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 12px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 12px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 120px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 10px;
+    }
+    
+    .button-container:hover{
+        font-size: 12px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .second-tab-container, .desktop-container, .tab-container{
+        display: none;
+    }
+
+    .mobile-container{
+        margin: 0 15px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+        background-color: blue;
+    }
+    
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 25px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+        
     }
     
     .box-2{
