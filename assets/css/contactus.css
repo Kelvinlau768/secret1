@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
 
 @media screen and (min-width: 1601px){
-    .second-tab-container, .mobile-container, .tab-container{
+    .second-mobile-container, .second-tab-container, .mobile-container, .tab-container{
         display: none;
     }
 
@@ -170,7 +170,7 @@
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1600px){
-    .second-tab-container, .mobile-container, .tab-container{
+    .second-mobile-container, .second-tab-container, .mobile-container, .tab-container{
         display: none;
     }
 
@@ -337,7 +337,7 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px){
-    .desktop-container, .mobile-container, .tab-container{
+    .second-mobile-container, .desktop-container, .mobile-container, .tab-container{
         display: none;
     }
 
@@ -504,7 +504,7 @@
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1200px){
-    .desktop-container, .mobile-container, .tab-container{
+    .second-mobile-container, .desktop-container, .mobile-container, .tab-container{
         display: none;
     }
 
@@ -671,7 +671,7 @@
 }
 
 @media screen and (min-width: 981px) and (max-width: 1000px){
-    .desktop-container, .mobile-container, .tab-container{
+    .second-mobile-container, .desktop-container, .mobile-container, .tab-container{
         display: none;
     }
 
@@ -838,7 +838,7 @@
 }
 
 @media screen and (min-width: 861px) and (max-width: 980px){
-    .tab-container, .mobile-container, .desktop-container{
+    .second-mobile-container, .tab-container, .mobile-container, .desktop-container{
         display: none;
     }
 
@@ -1005,7 +1005,7 @@
 }
 
 @media screen and (min-width: 601px) and (max-width: 860px){
-    .second-tab-container, .mobile-container, .desktop-container{
+    .second-mobile-container, .second-tab-container, .mobile-container, .desktop-container{
         display: none;
     }
 
@@ -1172,7 +1172,7 @@
 }
 
 @media screen and (min-width: 487px) and (max-width: 600px){
-    .second-tab-container, .desktop-container, .tab-container{
+    .second-mobile-container, .second-tab-container, .desktop-container, .tab-container{
         display: none;
     }
 
@@ -1340,11 +1340,11 @@
 }
 
 @media screen and (max-width: 487px){
-    .second-tab-container, .desktop-container, .tab-container{
+    .mobile-container .second-tab-container, .desktop-container, .tab-container{
         display: none;
     }
 
-    .mobile-container{
+    .second-mobile-container{
         margin: 0 15px;
         font-family: 'roboto';
         padding: 50px 0 100px 0;
