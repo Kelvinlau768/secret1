@@ -1171,7 +1171,7 @@
     }
 }
 
-@media screen and (min-width: 301px) and (max-width: 600px){
+@media screen and (min-width: 487px) and (max-width: 600px){
     .second-tab-container, .desktop-container, .tab-container{
         display: none;
     }
@@ -1180,7 +1180,6 @@
         margin: 0 15px;
         font-family: 'roboto';
         padding: 50px 0 100px 0;
-        background-color: red;
     }
     
     .banner{
@@ -1340,7 +1339,7 @@
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 487px){
     .second-tab-container, .desktop-container, .tab-container{
         display: none;
     }
