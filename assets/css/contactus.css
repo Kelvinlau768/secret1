@@ -1,37 +1,1339 @@
-body{
-    margin: 10px 200px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+@media screen and (min-width: 1601px){
+    .second-tab-container, .mobile-container, .tab-container{
+        display: none;
+    }
+
+    .desktop-container{
+        margin: 0 25%;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+    
+    .desktop-container .box p{
+        margin: 10px 20px -10px 20px;
+    }
+
+    .desktop-container .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .desktop-container .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .desktop-container .body-banner{
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-family: 'roboto';
+    }
+    
+    .desktop-container .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+        font-family: 'roboto';
+    }
+    
+    .desktop-container .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .desktop-container .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 25px 0 30px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .desktop-container .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .desktop-container .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .desktop-container .box-2{
+        margin-right: 20px;
+    }
+    
+    .desktop-container .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .desktop-container .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .desktop-container .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .desktop-container .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 280px;
+    }
+    
+    .desktop-container .contact-boxes-2{
+        margin-right: 15px;
+    }
+    
+    .desktop-container .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .desktop-container .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .desktop-container .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .desktop-container .bold{
+        font-weight: 600;
+    }
+    
+    .desktop-container .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .desktop-container .button-container{
+        font-size: 14px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 170px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .desktop-container .space{
+        margin-top: 16px;
+    }
+    
+    .desktop-container .button-container:hover{
+        font-size: 15px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .desktop-container .button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.second-container{
-    text-align: center;
-    padding: 100px 0px;
+@media screen and (min-width: 1401px) and (max-width: 1600px){
+    .second-tab-container, .mobile-container, .tab-container{
+        display: none;
+    }
+
+    .desktop-container{
+        margin: 0 250px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+    
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 25px 0 30px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .box-2{
+        margin-right: 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 280px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 15px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 14px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 170px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 16px;
+    }
+    
+    .button-container:hover{
+        font-size: 15px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.top, .bottom{
-    display: flex;
-    justify-content: space-evenly;
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+    .desktop-container, .mobile-container, .tab-container{
+        display: none;
+    }
+
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+
+    .second-tab-container{
+        margin: 0 200px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+    
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 25px 0 30px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .box-2{
+        margin-right: 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 280px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 15px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 14px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 170px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 16px;
+    }
+    
+    .button-container:hover{
+        font-size: 15px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.second-container img{
-    height: auto;
-    margin-bottom: 20px;
+@media screen and (min-width: 1001px) and (max-width: 1200px){
+    .desktop-container, .mobile-container, .tab-container{
+        display: none;
+    }
+
+    .second-tab-container{
+        margin: 0 100px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+    
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 25px 0 30px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .box-2{
+        margin-right: 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 280px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 15px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 14px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 170px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 16px;
+    }
+    
+    .button-container:hover{
+        font-size: 15px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.text-header{
-    text-transform: uppercase;
+@media screen and (min-width: 981px) and (max-width: 1000px){
+    .desktop-container, .mobile-container, .tab-container{
+        display: none;
+    }
+
+    .second-tab-container{
+        margin: 0 75px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+    
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 25px 0 30px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .box-2{
+        margin-right: 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 280px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 15px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 14px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 170px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 16px;
+    }
+    
+    .button-container:hover{
+        font-size: 15px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.main-container p{
-    font-size: 30px;
-    text-transform: uppercase;
+@media screen and (min-width: 861px) and (max-width: 980px){
+    .tab-container, .mobile-container, .desktop-container{
+        display: none;
+    }
+
+    .second-tab-container{
+        margin: 0 25px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+    
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 25px 0 30px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .box-2{
+        margin-right: 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 280px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 15px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 14px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 150px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 16px;
+    }
+    
+    .button-container:hover{
+        font-size: 15px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.line{
-    border-top: 3px solid black;
-    opacity: 0.1;
+@media screen and (min-width: 601px) and (max-width: 860px){
+    .second-tab-container, .mobile-container, .desktop-container{
+        display: none;
+    }
+
+    .tab-container{
+        margin: 0 25px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+    
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 20px 0px 30px 0px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .box-2{
+        margin-right: 20px;
+    }
+
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 280px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 15px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 14px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 150px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 16px;
+    }
+    
+    .button-container:hover{
+        font-size: 15px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.second-container p{
-    font-size: 1.1rem;
-    margin: 5px 0;
+@media screen and (max-width: 600px){
+    .second-tab-container, .desktop-container, .tab-container{
+        display: none;
+    }
+
+    .mobile-container{
+        margin: 0 15px;
+        font-family: 'roboto';
+        padding: 50px 0 100px 0;
+    }
+    
+    .banner{
+        background-color: #efefef;
+        border: 1px solid #efefef;
+        border-radius: 25px;
+        padding: 0 25px 50px 25px;
+    }
+    
+    .header-banner{
+        font-weight: 500;
+        font-family: 'roboto';
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .body-banner{
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        font-weight: 500;
+    }
+    
+    .body-text{
+        line-height: 1.4rem;
+        margin-top: -20px;
+    }
+    
+    .first-row-boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box{
+        background-color: #dddddd;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 25px 0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        box-shadow:-1px 3px 7px #c9c9c9;
+    }
+    
+    .box:hover{
+        background-color: #303030;
+        color: white;
+    }
+    
+    .box img{
+        border: 1px solid #f4f4f4;
+        border-radius: 150%;
+        padding: 25px 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .box-2{
+        margin-right: 15px;
+    }
+
+    .box p{
+        margin: 10px 20px -10px 20px;
+    }
+    
+    .second-row-boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .boxes .header-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contact-boxes{
+        background-color: #f3f1f1;
+        width: 350px;
+        text-align: center;
+        padding: 30px 0 15px 0;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        position: relative;
+        height: 240px;
+    }
+    
+    .contact-boxes-2{
+        margin-right: 12px;
+    }
+    
+    .contact-text-header{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+    
+    .contact-boxes p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 0.7;
+    }
+    
+    .contact-boxes .contact-title{
+        font-size: 17px;
+        font-weight: 600;
+        margin: 7px 0;
+        text-transform: uppercase;
+    }
+    
+    .bold{
+        font-weight: 600;
+    }
+    
+    .whatsapp{
+        margin-top: -10px;
+    }
+    
+    .button-container{
+        font-size: 12px;
+        padding: 10px 0px;
+        background-color: white;
+        border: 1px solid  white;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        border-radius: 25px;
+        box-shadow:-1px 5px 10px #c9c9c9;
+        width: 120px;
+        font-weight: 500;
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    
+    .space{
+        margin-top: 10px;
+    }
+    
+    .button-container:hover{
+        font-size: 12px;
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }
